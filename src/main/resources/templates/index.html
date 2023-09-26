@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+<html th:insert="~{layout/common :: common(~{::main})}">
 <body>
-    <main>
+    <main class="main-default">
+        <h1 class="my-3">
+            <a><img th:src="@{/assets/logo.png}" style="height: 60px; width: 60px;"></a> ING303
+        </h1>
+        <hr>
         <h1 th:text="${greeting}"></h1>
     </main>
 </body>

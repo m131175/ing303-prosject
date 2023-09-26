@@ -3,7 +3,6 @@
 Klon ned prosjektet ved hjelp av HTTPS eller SSH. 
 Vi jobber på hversine brancher i prosjektet, så man kan pushe sine siste endringer uten å forstyrre andre sitt arbeid.
 
-
 #### Terminal
 ```
 git clone https://github.com/m131175/ing303-prosject.git
@@ -30,4 +29,14 @@ git push -u origin m131175 (navnet på ditt lokale repo)
 #### For å pushe endringer til github etter at branch er pusha opp
 ```
 git push origin m131175 (navnet på repoet du skal pushe til)
+```
+
+Det er laget til så man slipper å alltid linke både footer og header inn i html'en. Når man oppretter et nytt html
+dokument må man alltid sette inn common i html'en, sånn som dette:
+```
+<html th:insert="~{layout/common :: common(~{::main})}">
+<body>
+<main>
+</main>
+</body>
 ```
