@@ -23,5 +23,6 @@ eller
 git checkout -b m131175
 
 Push den til github
+
 git push origin m131175 (navnet på ditt lokale repo)
 ```
