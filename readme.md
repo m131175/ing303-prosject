@@ -11,6 +11,8 @@ git clone https://github.com/m131175/ing303-prosject.git
 
 #### Opprett lokal branch og push den til github. 
 ```
+Opprette ny lokal branch
+
 #1
 git branch m131175 (bruk navn eller github brukernavn)
 git checkout m131175
@@ -19,4 +21,7 @@ eller
 
 #2
 git checkout -b m131175
+
+Push den til github
+git push origin m131175 (navnet på ditt lokale repo)
 ```
