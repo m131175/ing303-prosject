@@ -15,7 +15,7 @@ git clone https://github.com/m131175/ing303-prosject.git
 git branch m131175 (bruk navn eller github brukernavn)
 git checkout m131175
 
-ellergit
+eller
 
 #2
 git checkout -b m131175
