@@ -24,5 +24,10 @@ git checkout -b m131175
 
 Push den til github
 
-git push origin m131175 (navnet på ditt lokale repo)
+git push -u origin m131175 (navnet på ditt lokale repo)
+```
+
+#### For å pushe endringer til github etter at branch er pusha opp
+```
+git push origin m131175 
 ```
