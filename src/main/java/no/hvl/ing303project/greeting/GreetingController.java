@@ -12,6 +12,7 @@ public class GreetingController {
     @GetMapping()
     public String showGreeting(Model model) {
         model.addAttribute("greeting", "Hello World!");
+        var x = 0;
         return "index";
     }
 }
